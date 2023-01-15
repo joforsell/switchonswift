@@ -22,7 +22,7 @@ const Header = (props: HeaderProps) => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li className={`${highlight(Tab.Blog)}`}>
-                    <Link href='/blogpage'>Blog</Link>
+                    <Link href='/blog'>Blog</Link>
                 </li>
                 <li className={`${highlight(Tab.About)}`}>
                     <Link href='/aboutme'>About me</Link>
