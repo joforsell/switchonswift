@@ -14,7 +14,7 @@ interface LayoutProps {
 export const Layout = (props: LayoutProps) => {
     return (
       <div className="bg-gray-400 min-h-screen flex justify-center">
-        <div className="bg-gray-700 max-w-6xl min-h-screen p-4 flex-auto text-white flex flex-col justify-between">
+        <div className="bg-gray-700 sm:max-w-6xl max-w-full min-h-screen p-4 flex-auto text-white flex flex-col justify-between">
           <div>
             <Header activeTab={props.activeTab} />
             {props.children}
