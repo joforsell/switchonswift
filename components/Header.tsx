@@ -17,7 +17,7 @@ const Header = (props: HeaderProps) => {
     return (
         <div className="flex justify-between p-4 pb-10">
             <h1 className='sm:text-3xl text-large'>SwitchOnSwift</h1>
-            <ul className='flex flex-row gap-4 text-xl uppercase'>
+            <ul className='flex flex-row gap-4 sm:text-xl text-medium uppercase'>
                 <li className={`${highlight(Tab.Home)}`}>
                     <Link href='/'>Home</Link>
                 </li>
