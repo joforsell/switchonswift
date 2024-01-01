@@ -7,8 +7,6 @@ const BlogPage = () => {
             <Blog 
             heading='A year in'
             subheading='Time flies when you drastically change your life'
-            heading='A year in'
-            subheading='Time flies when you drastically change your life'
             >
             <p className='pt-10'>
                 It's been almost a year now since I got the amazing opportunity to start my first ever position as a software developer. Coming from a career as a primary school teacher I spent more and more time learning and practicing iOS development as a hobby, eventually leading up to a job at <a href='https://tibber.com' className='underline decoration-dotted'>Tibber</a>, where we 'empower the clever' to make smart decisions about their energy consumption.
